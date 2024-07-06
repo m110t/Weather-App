@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+<div class="container">
+   <div class="weather-input">
+    <h3>Enter Your City</h3>
+    <input type="text" placeholder="E.g , New York, London, Tokyo" name="" id="" class="city-input">
+    <button class="search-btn">Search</button>
+    <div class="seprator"></div>
+    <button class="location-btn">Use Current Location</button>
+   </div>
+   <div class="weather-data w-75 ">
+    <div class="current-weather w-100">
+        <div class="details w-100 ">
+            <!-- <h2>London (2023-06-19)</h2>
+                
+            <h4>Temprature: 19.10 C</h3>
+            <h4>Wind: 4.31 M/S</h3>
+            <h4>Humidity: 79%</h3> -->
+        </div>
+        <div class="icon">
+            <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}.png" class="w-100 me-auto" alt="weather-icon">
+        </div>
+          
+            
+        </div>
+    </div>
+    <div class="days-forecast">
+        <h2>5-Day Forecast</h2>
+        <ul class="weather-cards" id = "uu">
+             <!-- <li class="card"  id = "yy">
+            <h2> ( __________ )</h2>
+            <img src="" alt="">
+            <h4 class="mt-4">Temp: ____ C</h3>
+            <h4>Wind: ____ M/S</h3>
+            <h4>Humidity: 79%</h3>
+            </li>
+            <li class="card"  id = "yy">
+            <h2> (2023-06-19)</h2>
+            <i class="fa-solid fa-cloud-sun-rain"></i> 
+            <h4 class="mt-4">Temp: 19.10 C</h3>
+            <h4>Wind: 4.31 M/S</h3>
+            <h4>Humidity: 79%</h3>
+            </li>  -->
+        </ul>
+    </div>
+   </div>
+</div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
